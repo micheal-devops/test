@@ -1,5 +1,4 @@
-FROM ubuntu:20.04 AS train
-RUN apt update && apt install wget -y
+FROM train:latest
 
 #COPY requirements.txt .
 #RUN pip install -r requirements.txt
